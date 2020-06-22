@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="bpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #5e5e5e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Desafio.VideoLayerController">
+   <center>
+      <MediaView fx:id="mv" fitHeight="425.0" fitWidth="850.0" BorderPane.alignment="TOP_CENTER">
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+      </MediaView>
+   </center>
+   <bottom>
+      <Button fx:id="play" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#onClick" style="-fx-background-color: #000000;" text="PLAY/PAUSE" textFill="WHITE" BorderPane.alignment="BASELINE_CENTER">
+         <BorderPane.margin>
+            <Insets bottom="-10.0" />
+         </BorderPane.margin></Button>
+   </bottom>
+</BorderPane>

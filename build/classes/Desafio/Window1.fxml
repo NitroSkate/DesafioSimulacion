@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="717.0" prefWidth="1019.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Desafio.Window1Controller">
+    <children>
+      <ImageView fitHeight="728.0" fitWidth="1033.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/menu.jpg" />
+         </image>
+      </ImageView>
+        <Button fx:id="button" layoutX="92.0" layoutY="287.0" onAction="#handleButtonAction" prefHeight="46.0" prefWidth="115.0" style="-fx-background-color: #b3aead;" text="Menu" textFill="WHITE" />
+      <Button fx:id="exit" layoutX="92.0" layoutY="370.0" onAction="#exitScene" prefHeight="46.0" prefWidth="115.0" style="-fx-background-color: #b3aead;" text="Salir" textFill="WHITE" />
+      <MediaView fx:id="math" fitHeight="25.0" fitWidth="25.0" layoutX="789.0" layoutY="187.0" />
+    </children>
+</AnchorPane>

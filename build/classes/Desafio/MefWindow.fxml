@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="717.0" prefWidth="1000.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Desafio.MefWindowController">
+   <children>
+      <BorderPane fx:id="pane" layoutX="134.0" layoutY="17.0" prefHeight="685.0" prefWidth="842.0" />
+      <VBox layoutX="14.0" layoutY="19.0" prefHeight="685.0" prefWidth="100.0" style="-fx-background-color: #4f4f4f;">
+         <children>
+            <Button fx:id="paso1" mnemonicParsing="false" onAction="#executeM1" prefHeight="31.0" prefWidth="76.0" style="-fx-background-color: #000000;" text="PASO 1" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="12.0" top="35.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="paso2" layoutX="22.0" layoutY="20.0" mnemonicParsing="false" onAction="#executeM2" prefHeight="31.0" prefWidth="76.0" style="-fx-background-color: #000000;" text="PASO 2" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="12.0" top="65.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="paso3" layoutX="22.0" layoutY="126.0" mnemonicParsing="false" onAction="#executeM3" prefHeight="31.0" prefWidth="76.0" style="-fx-background-color: #000000;" text="PASO 3" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="12.0" top="65.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="paso4" layoutX="22.0" layoutY="232.0" mnemonicParsing="false" onAction="#executeM4" prefHeight="31.0" prefWidth="76.0" style="-fx-background-color: #000000;" text="PASO 4" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="12.0" top="65.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="paso5" layoutX="22.0" layoutY="338.0" mnemonicParsing="false" onAction="#executeM5" prefHeight="31.0" prefWidth="76.0" style="-fx-background-color: #000000;" text="PASO 5" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="12.0" top="65.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="paso6" layoutX="10.0" layoutY="369.0" mnemonicParsing="false" onAction="#executeM6" prefHeight="31.0" prefWidth="76.0" style="-fx-background-color: #000000;" text="PASO 6" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="12.0" top="65.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="exit" layoutX="10.0" layoutY="400.0" mnemonicParsing="false" onAction="#onClose" prefHeight="31.0" prefWidth="76.0" style="-fx-background-color: #000000;" text="VOLVER" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="12.0" top="65.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <MediaView fx:id="mp3" fitHeight="50.0" fitWidth="50.0" layoutX="886.0" layoutY="492.0" />
+   </children>
+</AnchorPane>
