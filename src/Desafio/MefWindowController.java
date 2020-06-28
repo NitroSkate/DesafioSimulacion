@@ -56,37 +56,37 @@ public class MefWindowController implements Initializable {
     
     @FXML
     private void executeM1(ActionEvent e) throws IOException {
-        BorderPane container = FXMLLoader.load(getClass().getResource("Template.fxml"));
+        BorderPane container = FXMLLoader.load(getClass().getResource("Step1.fxml"));
         pane.setCenter(container);
     }
     
     @FXML
     private void executeM2(ActionEvent e) throws IOException {
-        BorderPane container = FXMLLoader.load(getClass().getResource("Template.fxml"));
+        BorderPane container = FXMLLoader.load(getClass().getResource("Step2.fxml"));
         pane.setCenter(container);
     }
     
     @FXML
     private void executeM3(ActionEvent e) throws IOException {
-        BorderPane container = FXMLLoader.load(getClass().getResource("Template.fxml"));
+        BorderPane container = FXMLLoader.load(getClass().getResource("Step3.fxml"));
         pane.setCenter(container);
     }
     
     @FXML
     private void executeM4(ActionEvent e) throws IOException {
-        BorderPane container = FXMLLoader.load(getClass().getResource("Template.fxml"));
+        BorderPane container = FXMLLoader.load(getClass().getResource("Step4.fxml"));
         pane.setCenter(container);
     }
     
     @FXML
     private void executeM5(ActionEvent e) throws IOException {
-        BorderPane container = FXMLLoader.load(getClass().getResource("Template.fxml"));
+        BorderPane container = FXMLLoader.load(getClass().getResource("Step5.fxml"));
         pane.setCenter(container);
     }
     
     @FXML
     private void executeM6(ActionEvent e) throws IOException {
-        BorderPane container = FXMLLoader.load(getClass().getResource("Template.fxml"));
+        BorderPane container = FXMLLoader.load(getClass().getResource("Step6.fxml"));
         pane.setCenter(container);
     }
     
@@ -102,7 +102,7 @@ public class MefWindowController implements Initializable {
         
         Stage stage2  = new Stage();
         stage2.getIcons().add(new Image("media/icon.jpg"));
-        stage2.setScene(new Scene(root, 989, 717));
+        stage2.setScene(new Scene(root, 995, 717));
         stage2.setTitle("Menu");
         stage2.show();
         

@@ -3,20 +3,45 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/MefWindow.fxml</file>
             <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/MefWindowController.java</file>
-            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Window2.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Step2.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Step5.fxml</file>
             <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/MEFController.java</file>
-            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/VideoLayer.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/A.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/VideoController.java</file>
             <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Template.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/C.fxml</file>
             <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Window2Controller.java</file>
             <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/MEF.fxml</file>
-            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Window1.fxml</file>
-            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/VideoLayerController.java</file>
-            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/MainWindow.java</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Comp.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Mesh.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Exit.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/PreCondition.fxml</file>
             <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Model.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/W.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/D.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Video.fxml</file>
             <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Domain.fxml</file>
             <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Window1Controller.java</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/ExitController.java</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Window2.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/CompWindow.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Step3.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/CompWindowController.java</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Table.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Step6.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/VideoLayer.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Condition.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Window1.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/V.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Step4.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/Step1.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/PreConditionController.java</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/CompController.java</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/VideoLayerController.java</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/MainWindow.java</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/B.fxml</file>
+            <file>file:/C:/Users/Joshua%20Sharp/Documents/NetBeansProjects/Desafio/src/Desafio/ConditionController.java</file>
         </group>
     </open-files>
 </project-private>

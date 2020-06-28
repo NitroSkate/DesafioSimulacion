@@ -10,6 +10,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Paths;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javafx.application.Application;
 import javafx.application.HostServices;
 import javafx.event.ActionEvent;
@@ -37,6 +39,7 @@ public class Window1Controller implements Initializable {
     
     MediaPlayer mediaplayer;
     
+    
    
     
      @Override
@@ -58,28 +61,21 @@ public class Window1Controller implements Initializable {
         mediaplayer.dispose();
         final Node source = (Node) event.getSource();
         final Stage stage = (Stage) source.getScene().getWindow();
+        
         stage.close();
+        
         
         FXMLLoader loader = new FXMLLoader (getClass().getResource("Window2.fxml"));
         Parent root = loader.load();
         
         Stage stage2  = new Stage();
         stage2.getIcons().add(new Image("media/icon.jpg"));
-        stage2.setScene(new Scene(root, 986, 717));
+        stage2.setScene(new Scene(root, 989, 717));
         stage2.setResizable(false);
         stage2.setTitle("Menu");
         stage2.show();
         
         
     }
-    
-    @FXML
-    private void exitScene(ActionEvent event){
-        final Node window = (Node) event.getSource();
-        final Stage stage = (Stage) window.getScene().getWindow();
-        stage.close();
-    }
-    
-   
     
 }

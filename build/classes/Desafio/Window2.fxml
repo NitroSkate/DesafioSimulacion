@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.media.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.geometry.*?>
@@ -14,40 +15,77 @@
    <children>
       <HBox alignment="CENTER_LEFT" layoutX="8.0" layoutY="623.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="82.0" prefWidth="981.0" style="-fx-background-color: #474646; -fx-border-radius: 50 50 50 50;" AnchorPane.leftAnchor="8.0">
          <children>
-            <Button fx:id="dominio" mnemonicParsing="false" onAction="#executeDomain" prefHeight="34.0" prefWidth="93.0" style="-fx-background-color: #000000; -fx-border-radius: 50px;" text="Dominio" textFill="WHITE">
+            <Button fx:id="dominio" mnemonicParsing="false" onAction="#executeDomain" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #000000; -fx-border-radius: 50px;" text="Dominio" textFill="WHITE">
                <HBox.margin>
                   <Insets left="10.0" right="10.0" />
                </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
             </Button>
-            <Button fx:id="mallado" layoutX="30.0" layoutY="48.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="85.0" style="-fx-background-color: #000000;" text="Mallado" textFill="WHITE" />
-            <Button fx:id="tconect" mnemonicParsing="false" prefHeight="34.0" prefWidth="196.0" style="-fx-background-color: #000000;" text="Tabla de Conectividades" textFill="WHITE">
+            <Button fx:id="mallado" layoutX="30.0" layoutY="48.0" mnemonicParsing="false" onAction="#executeMesh" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #000000;" text="Mallado" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="tconect" mnemonicParsing="false" onAction="#executeTable" prefHeight="34.0" prefWidth="190.0" style="-fx-background-color: #000000;" text="Tabla Conectividades" textFill="WHITE">
                <HBox.margin>
                   <Insets left="10.0" right="10.0" />
                </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
             </Button>
-            <Button fx:id="modelo" layoutX="112.0" layoutY="48.0" mnemonicParsing="false" onAction="#executeModel" prefHeight="34.0" prefWidth="94.0" style="-fx-background-color: #000000;" text="Modelo" textFill="WHITE">
+            <Button fx:id="modelo" layoutX="112.0" layoutY="48.0" mnemonicParsing="false" onAction="#executeModel" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #000000;" text="Modelo" textFill="WHITE">
                <HBox.margin>
                   <Insets right="10.0" />
                </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
             </Button>
-            <Button fx:id="mef" layoutX="206.0" layoutY="48.0" mnemonicParsing="false" onAction="#executeMEF" prefHeight="34.0" prefWidth="145.0" style="-fx-background-color: #000000;" text="Pasos del MEF" textFill="WHITE">
+            <Button fx:id="mef" layoutX="206.0" layoutY="48.0" mnemonicParsing="false" onAction="#executeMEF" prefHeight="34.0" prefWidth="120.0" style="-fx-background-color: #000000;" text="Pasos MEF" textFill="WHITE">
                <HBox.margin>
                   <Insets right="10.0" />
                </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
             </Button>
-            <Button fx:id="ensam" layoutX="514.0" layoutY="48.0" mnemonicParsing="false" onAction="#executeVideo" prefHeight="34.0" prefWidth="130.0" style="-fx-background-color: #000000;" text="Ensamblaje" textFill="WHITE" />
-            <Button fx:id="contorno" layoutX="649.0" layoutY="48.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="193.0" style="-fx-background-color: #000000;" text="Condicion Contorno" textFill="WHITE">
+            <Button fx:id="mef1" layoutX="508.0" layoutY="34.0" mnemonicParsing="false" onAction="#executeComp" prefHeight="34.0" prefWidth="145.0" style="-fx-background-color: #000000;" text="Componentes" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="ensam" layoutX="514.0" layoutY="48.0" mnemonicParsing="false" onAction="#executeVideo" prefHeight="34.0" prefWidth="130.0" style="-fx-background-color: #000000;" text="Ensamblaje" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <Button fx:id="contorno" layoutX="649.0" layoutY="48.0" mnemonicParsing="false" onAction="#executeCondition" prefHeight="34.0" prefWidth="125.0" style="-fx-background-color: #000000;" text="Condiciones" textFill="WHITE">
                <HBox.margin>
                   <Insets left="10.0" right="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="modelo1" layoutX="389.0" layoutY="34.0" mnemonicParsing="false" onAction="#executeExit" prefHeight="34.0" prefWidth="94.0" style="-fx-background-color: #000000;" text="Salir" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
                </HBox.margin>
             </Button>
          </children>
       </HBox>
       <BorderPane fx:id="borderpane" layoutX="40.0" layoutY="14.0" prefHeight="581.0" prefWidth="918.0">
          <center>
-            <ImageView fitHeight="578.0" fitWidth="842.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+            <ImageView fitHeight="578.0" fitWidth="804.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
                <image>
-                  <Image url="@../media/icon.jpg" />
+                  <Image url="@../media/grv.gif" />
                </image>
             </ImageView>
          </center></BorderPane>

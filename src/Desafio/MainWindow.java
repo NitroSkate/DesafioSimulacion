@@ -5,6 +5,9 @@
  */
 package Desafio;
 
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -28,6 +31,21 @@ public class MainWindow extends Application {
         stage.setScene(scene);
         stage.setResizable(false);
         stage.show();
+        
+       /* stage.setOnCloseRequest(event -> {
+            Parent exit = null;
+            try {
+                exit = FXMLLoader.load(getClass().getResource("Window2.fxml"));
+            } catch (IOException ex) {
+                Logger.getLogger(MainWindow.class.getName()).log(Level.SEVERE, null, ex);
+            }
+  
+            Stage stage2 = new Stage();
+            stage2.setScene(new Scene(exit, 989, 717));
+            stage2.setResizable(false);
+            stage2.show();
+        
+        });*/
     }
 
     /**

@@ -54,7 +54,7 @@ public class MEFController implements Initializable {
         
         Stage stage2  = new Stage();
         stage2.getIcons().add(new Image("media/icon.jpg"));
-        stage2.setScene(new Scene(root, 1017, 717));
+        stage2.setScene(new Scene(root, 1000, 717));
         stage2.setResizable(false);
         stage2.setTitle("MEF");
         stage2.show();

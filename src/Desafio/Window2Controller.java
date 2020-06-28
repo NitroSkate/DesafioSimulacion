@@ -15,7 +15,10 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
@@ -64,43 +67,82 @@ public class Window2Controller implements Initializable {
         mediaplayer.setCycleCount(MediaPlayer.INDEFINITE);
     }
     
-    public void verifyVideo(){
-        if(video != null){
-            video.dispose();
-        } else{
-            System.out.println("PTM es nulo");
-        }
-    }
     
     @FXML
     private void executeDomain(ActionEvent e) throws IOException {
         BorderPane container = FXMLLoader.load(getClass().getResource("Domain.fxml"));
         borderpane.setCenter(container);
-        mediaplayer.play();
+
+    }
+    
+    @FXML
+    private void executeMesh(ActionEvent e) throws IOException {
+        BorderPane container = FXMLLoader.load(getClass().getResource("Mesh.fxml"));
+        borderpane.setCenter(container);
+   }
+    
+    @FXML
+    private void executeTable(ActionEvent e) throws IOException {
+        BorderPane container = FXMLLoader.load(getClass().getResource("Table.fxml"));
+        borderpane.setCenter(container);
+
     }
     
         @FXML
     private void executeModel(ActionEvent e) throws IOException {
         BorderPane container = FXMLLoader.load(getClass().getResource("Model.fxml"));
         borderpane.setCenter(container);
-        mediaplayer.play();
+
     }
     
     @FXML
     private void executeVideo(ActionEvent e) throws IOException {
-        BorderPane container = FXMLLoader.load(getClass().getResource("VideoLayer.fxml"));
+        BorderPane container = FXMLLoader.load(getClass().getResource("Video.fxml"));
         borderpane.setCenter(container);
-        mediaplayer.play();
+
+    }
+    
+    @FXML
+    private void executeCondition(ActionEvent e) throws IOException {
+        BorderPane container = FXMLLoader.load(getClass().getResource("PreCondition.fxml"));
+        borderpane.setCenter(container);
+
     }
     
     @FXML
     private void executeMEF(ActionEvent e) throws Exception {
-        verifyVideo();
         BorderPane container = FXMLLoader.load(getClass().getResource("MEF.fxml"));
         borderpane.setCenter(container);
-        //mediaplayer.pause();
-        //setMedia(mediaplayer);
+
         
+    }
+    
+    @FXML
+    private void executeComp(ActionEvent e) throws Exception {
+        BorderPane container = FXMLLoader.load(getClass().getResource("Comp.fxml"));
+        borderpane.setCenter(container);
+
+        
+    }
+    
+    @FXML
+    private void executeExit(ActionEvent e) throws IOException{
+        
+        mediaplayer.dispose();
+        
+        final Node source = (Node) e.getSource();
+        final Stage stage = (Stage) source.getScene().getWindow();
+        stage.close();
+        
+        FXMLLoader loader = new FXMLLoader (getClass().getResource("Exit.fxml"));
+        Parent root = loader.load();
+        
+        Stage stage2  = new Stage();
+        stage2.getIcons().add(new Image("media/icon.jpg"));
+        stage2.setScene(new Scene(root, 1000, 717));
+        stage2.setResizable(false);
+        stage2.setTitle("Goodbye");
+        stage2.show();
         
     }
    

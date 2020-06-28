@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Desafio.PreConditionController">
+   <right>
+      <ImageView fitHeight="510.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../media/contorno.jpg" />
+         </image>
+         <BorderPane.margin>
+            <Insets bottom="-80.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </right>
+   <bottom>
+      <Button fx:id="sig" mnemonicParsing="false" onAction="#onNext" prefHeight="31.0" prefWidth="150.0" style="-fx-background-color: #ebebeb;" text="Reproducir Video" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="50.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font></Button>
+   </bottom>
+</BorderPane>
